@@ -1,7 +1,7 @@
 [submodule "submodules/mytardis"]
     path = submodules/mytardis
     url = https://github.com/manishkumr/mytardis.git
-    barnch = feature_search_improvements:wq
+    branch = feature_search_improvements
 
 [submodule "submodules/mytardis-app-mydata"]
     path = submodules/mytardis-app-mydata
