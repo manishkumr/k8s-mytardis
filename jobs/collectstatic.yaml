@@ -11,6 +11,7 @@ spec:
       containers:
       - name: go
         image: mytardis/k8s-mytardis:latest
+        imagePullPolicy: Always
         command: ["/bin/sh", "-c", "python manage.py collectstatic --noinput"]
         volumeMounts:
           - name: settings
